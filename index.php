@@ -1,0 +1,5 @@
+<?
+
+header("location: empresa.html");
+
+?>
