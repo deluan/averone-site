@@ -1,5 +1,0 @@
-<?
-
-header("location: empresa.html");
-
-?>
