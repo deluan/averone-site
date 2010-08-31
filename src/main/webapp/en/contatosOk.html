@@ -1,0 +1,33 @@
+<meta name="pagina" content="contatos.html">
+
+<div id="submenu"> 
+	<p style="margin-top:15px; font-weight:normal; padding-right:5px; text-align:center">
+		Fill in the form or use one of our directions to get in touch.
+	</p>
+	<% include 'contatoInfo.html' %>
+</div>
+<div id="conteudo">
+	<h1>Contact</h1>
+	<form name="form1" method="post" id="form1" action="/enviaEmail.groovy" onsubmit="return validaContato(this)">
+		<table width="100%" border="0" cellspacing="0" cellpadding="4">
+		<tr>
+         	<td colspan="3" align="center" class="ok">Successfully sent message. </td>
+       	</tr>
+       	<tr>
+			<td width="24%" align="right" class="label"><span class="campoRequerido">*</span>name</td>
+			<td width="48%"><input name="nome" type="text" class="formulario" id="nome" style="width:250px;" /></td>
+			<td width="28%">&nbsp;</td>
+		</tr>
+		<tr>
+			<td align="right" class="label"><span class="campoRequerido">*</span>e-mail</td>
+			<td><input name="email" type="text" class="formulario" id="email" style="width:250px;" /></td>
+			<td>&nbsp;</td>
+		</tr>
+		<tr>
+			<td align="right" valign="top" class="label"><span class="campoRequerido">*</span>message</td>
+			<td><textarea name="mensagem" class="formulario" id="mensagem" rows="6" cols="30" style="width:250px"></textarea></td>
+			<td align="left" valign="bottom"><input type="image" name="imageField" src="/imagens/bt_enviar_en.gif" /></td>
+		</tr>
+		</table>
+	</form>
+</div>

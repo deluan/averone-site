@@ -1,0 +1,11 @@
+<decorators defaultdir="/WEB-INF/decorators">
+	<decorator name="blank" page="">
+		<pattern>**/popupContato.html</pattern>
+	</decorator>
+	<decorator name="main_pt-br" page="main_pt-br.jsp">
+		<pattern>/pt-br/*</pattern>
+	</decorator>
+	<decorator name="main_en" page="main_en.jsp">
+		<pattern>/en/*</pattern>
+	</decorator>
+</decorators>

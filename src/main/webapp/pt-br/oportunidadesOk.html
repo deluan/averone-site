@@ -1,0 +1,30 @@
+<meta name="pagina" content="oportunidades.html">
+
+<div id="submenu">
+   	<h3><img src="/imagens/oportunidades.gif" width="219" height="30" alt="oportunidades" /></h3>
+</div>
+
+<div id="conteudo">
+	<h1 class="style1">Oportunidades</h1>
+	<form action="/enviaCurriculo.groovy" method="post" enctype="multipart/form-data" id="form1" name="form1">
+	<p align="center" class="ok">Seu curriculo foi enviado com sucesso! </p>
+	<p>&nbsp;</p>
+	<p>A Averone &eacute; uma empresa din&acirc;mica em fase de crescimento. Sempre precisamos   contratar novos colaboradores. Ser&aacute; um prazer analisar seu curr&iacute;culo. N&atilde;o deixe   de envi&aacute;-lo. Por&eacute;m, n&atilde;o se esque&ccedil;a de reenvi&aacute;-lo a cada 6 meses, pois este &eacute; o   tempo m&aacute;ximo que o mantemos no nosso sistema.</p>
+	<p>&nbsp;</p>
+	<table width="100%">
+	<tr>
+		<td width="24%" align="right" class="label"><span class="campoRequerido">*</span>nome:</td>
+		<td width="76%"><input name="nome" type="text" class="formulario" id="nome" style="width: 250px;" /></td>
+	</tr>
+	<tr>
+		<td align="right" class="label"><span class="campoRequerido">*</span>e-mail:</td>
+		<td><input name="email" type="text" class="formulario" id="email" style="width: 250px;" /></td>
+	</tr>
+	<tr>
+		<td align="right" class="label"><span class="campoRequerido">*</span>curriculo:</td>
+		<td><input name="arquivo" type="file" class="formulario" id="arquivo" style="width: 250px;" />
+		<a href="javascript: enviaFormCurriculo(document.form1)"><img src="/imagens/bt_ok.jpg" alt="Enviar" align="top" border="0" /></a></td>
+	</tr>
+	</table>
+	</form>
+</div>
