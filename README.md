@@ -10,6 +10,6 @@ historical reasons.
 In this (3rd) incarnation it uses the following "tech":
 
 * [Hugo](http://hugo.spf13.com/) static site generator.
-* [Formspree](https://formspree.io/) for submitting forms to email
+* [Simple Form](https://getsimpleform.com) for submitting forms to email
 * [JS Cookie](https://github.com/js-cookie/js-cookie) for handling i18n cookies
 * [Wercker](http://wercker.com) to automate deployments to GitHub Pages
