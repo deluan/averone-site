@@ -1,0 +1,9 @@
+baseurl = "http://www.averone.com.br/"
+languageCode = "pt-br"
+title = "Averone Website"
+uglyURLs = true
+disableRSS = true
+
+[sitemap]
+  changefreq = "monthly"
+  priority = 0.5

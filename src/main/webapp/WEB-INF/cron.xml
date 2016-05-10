@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<cronentries>
-  <cron>
-    <url>/keepAlive.html</url>
-    <description>Mantem a aplicacao iniciada</description>
-    <schedule>every 5 minutes</schedule>
-  </cron>
-</cronentries>

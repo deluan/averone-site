@@ -1,3 +1,2 @@
-.hg
-build
-target
+.DS_Store
+public
