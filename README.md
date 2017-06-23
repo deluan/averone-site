@@ -1,7 +1,7 @@
 Averone's Website
 =================
 
-This is the source code for http://www.averone.com.br. The contents and layout
+This is the source code for https://www.averone.com.br. The contents and layout
 of the site have not been updated since 2007. This is maintained just for
 historical reasons.
 

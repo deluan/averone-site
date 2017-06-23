@@ -1,4 +1,4 @@
-baseurl = "http://www.averone.com.br/"
+baseurl = "https//www.averone.com.br/"
 languageCode = "pt-br"
 title = "Averone Website"
 uglyURLs = true
